@@ -1,0 +1,333 @@
+@media screen {
+  .container {
+    max-width: 426px;
+  }
+
+  .about-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+
+  .about-company-icons {
+    display: none;
+  }
+
+  .company-products {
+    display: none;
+  }
+
+  .team {
+    display: flex;
+    gap: 72px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .team-cards {
+    max-width: 264px;
+  }
+
+  .team-section > .container {
+    max-width: 296px;
+  }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu-btn-open {
+    display: none;
+  }
+
+  .header-address {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contacts {
+    color: #434455;
+    font-size: 12px;
+    font-family: Roboto;
+    line-height: 1.16;
+    letter-spacing: 0.48px;
+  }
+
+  .about-company-icons {
+    display: none;
+  }
+
+  .about-company {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .about-company-item {
+    max-width: 356px;
+  }
+
+  .subtitle {
+    text-align: left;
+  }
+
+  .company-products {
+    display: none;
+  }
+
+  .team-section > .container {
+    max-width: 584px;
+  }
+
+  .team {
+    display: flex;
+    gap: 64px;
+    column-gap: 24px;
+  }
+
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    column-gap: 24px;
+    justify-content: center;
+  }
+
+  .customer-item {
+    width: calc((100% - 24px) / 4);
+  }
+
+  .page-bottom > .container {
+    max-width: 584px;
+  }
+
+  .footer-logo-container {
+    margin-left: 0;
+    margin-right: 24px;
+  }
+
+  .footer-tablet {
+    display: flex;
+  }
+
+  .logo-footer {
+    justify-content: start;
+  }
+
+  .social-footer-title {
+    justify-content: start;
+  }
+
+  .subscribe {
+    display: flex;
+    gap: 24px;
+  }
+
+  .subscribe-input {
+    width: 264px;
+  }
+
+  .subscribe-btn {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hero {
+    height: 436px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-tab-2x.jpg);
+    }
+  }
+
+  .main-title {
+    font-size: 56px;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .header-address {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+  }
+
+  .menu {
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-address {
+    display: flex;
+    gap: 40px;
+  }
+
+  .contacts {
+    color: #434455;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+
+  .main-about {
+    padding: 120px 0;
+  }
+
+  .about-company-icons {
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-company-item {
+    max-width: 264px;
+  }
+
+  .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
+  .about-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+
+  .company-products {
+    display: flex;
+  }
+
+  .team-section > .container {
+    max-width: 1158px;
+  }
+
+  .team {
+    display: flex;
+    gap: 24px;
+  }
+
+  .team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customer-banners {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .customer-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+
+  .page-bottom > .container {
+    max-width: 1158px;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-logo-container {
+    margin-right: 120px;
+  }
+
+  .social-media-links {
+    margin-right: 80px;
+  }
+
+  .page-bottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .subscribe-input {
+    opacity: 1;
+  }
+
+  .main-title {
+    margin-bottom: 48px;
+  }
+
+  .hero {
+    padding: 188px 0 188px 0;
+    height: 600px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-2x.jpg);
+    }
+  }
+}
