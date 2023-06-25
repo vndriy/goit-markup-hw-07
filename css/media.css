@@ -179,6 +179,11 @@
     max-width: 496px;
     margin-bottom: 36px;
   }
+
+  .modal {
+    width: 100%;
+    max-width: 408px;
+  }
 }
 
 /* DESKTOP */
